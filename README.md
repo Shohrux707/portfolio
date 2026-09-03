@@ -19,5 +19,5 @@ Previously, employees manually calculated stats (views, likes, comments,
 shares, reposts) and built PDFs by hand — my tool automated the entire 
 pipeline: upload screenshots → auto-extract stats → generate PDF report.
 - 🎯 Impact: Tool was well-received enough that the company is integrating it directly into the Between app
-- 🛠️ Tech: HTML, CSS, JavaScript, OCR, jsPDF
+- 🛠️ Tech: HTML, CSS, JavaScript, Tesseract.js (OCR), jsPDF
 - 🔒 Source code is confidential per internship NDA
