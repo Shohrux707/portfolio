@@ -12,7 +12,12 @@ I completely redesigned the company website during my internship at Between
 I did an independent research on the rationality of AI investment. 
 - 📄 [Read the paper](research/Research_paper_Shoxrux_Shodiyev.pdf)
 
-### Statistics-generator
-As part of an internship at Between, I build a statistics-generator. Between is a ugc-marketing company. When the influencers upload the videos, after a couple of days, they send us screenshot containing the stats of the video (views, likes, comments, sends, and reposts). Before I build this tool, the employees needed to calculate those stats, place the screenshot into a canvas and make pdf from it. But I made that does all of that automatically. The employees simlpy needed to upload the screenshots, and my tool would calculate the stats. Then, they would just click 'generate pdf' and the pdf would be generated. This tool was so good that they want to integrate it into Between app.
-
-- Unfortunately, due to a confidentiality agreement, I can't share the source of the code.
+### Statistics Generator (Internal Tool)
+Built an automation tool during my internship at Between (a UGC-marketing 
+company) that generates performance reports from influencer video screenshots. 
+Previously, employees manually calculated stats (views, likes, comments, 
+shares, reposts) and built PDFs by hand — my tool automated the entire 
+pipeline: upload screenshots → auto-extract stats → generate PDF report.
+- 🎯 Impact: Tool was well-received enough that the company is integrating it directly into the Between app
+- 🛠️ Tech: HTML, CSS, JavaScript, OCR, jsPDF
+- 🔒 Source code is confidential per internship NDA
